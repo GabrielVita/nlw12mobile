@@ -3,23 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello boy</Text>
+    <View className="bg-gray-950 flex-1" >
+      <Text className="text-xl text-gray-400">Hello boy</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#090909',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text:{
-    color: '#fff',
-    fontSize: 46,
-    fontWeight: "bold",
-  }
-});
